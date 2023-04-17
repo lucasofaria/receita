@@ -32,7 +32,7 @@ export async function removeItem(id){
     return (item.id !== id)
   })
 
-  await AsyncStorage.setItem("appreceitas", JSON.stringify(myFavorites));
+  await AsyncStorage.setItem("@appreceitas", JSON.stringify(myFavorites));
   console.log("RECEITA REMOVIDA COM SUCESSO!")
   return myFavorites;
 }
@@ -45,6 +45,5 @@ export async function isFavorite(receipe){
   if(favorite){
     return true;
   }
-
   return false;
 }

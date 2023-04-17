@@ -41,7 +41,7 @@ export function Detail(){
             <Entypo 
               name="heart-outlined"
               size={28}
-              color="#FF4141"
+              color="#121212"
             />
           )}
         </Pressable>
